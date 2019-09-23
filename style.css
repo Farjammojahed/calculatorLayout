@@ -1,0 +1,148 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+
+}
+#calculartor {
+    padding: 15% 40% 20% 40%;
+    border: 1px black solid;
+
+}
+header.top-part {
+    background-color: #e5e5e5;
+}
+.top-menu {
+    display: flex;
+    width: 100%;
+}
+.top-menu-label {
+    display: flex;
+    flex-flow: row nowrap;
+    flex-basis: 100%;
+}
+.option-top-menu-button{
+    display: flex;
+    flex-basis: 10%;
+    justify-items: center;
+    align-items: center;
+}
+.calculator-choosen {
+    display: flex;
+    flex-basis: 80%;
+}
+label.calculator-choosen{
+    align-items: center;
+    padding-left: 10px;
+}
+.history-button {
+    display: flex;
+    justify-content: flex-end;
+    justify-items: center;
+    align-items: center;
+    flex-basis: 10%;
+}
+.screen {
+    display: flex;
+    flex-flow: column nowrap;
+    height: 100px;
+}
+.history-screen {
+    display: flex;
+}
+#history {
+    font-size: 1.1rem;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    text-align: right;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    background-color: transparent;
+    padding:0 10px 0 10px
+}
+.main-screen {
+    display: flex;
+}
+#main {
+    font-size: 3rem;
+    font-weight: 600;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    text-align: right;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    background-color: transparent;
+    padding:0 5px 0 5px
+}
+.memory {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    font-size: 0.75rem;
+    color: #757575
+}
+section.bottom-part {
+    background-color: #f2f2f2;
+}
+.features {
+
+}
+.main-menu {
+
+}
+.row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    line-height: 3.5rem;
+    border: 1px solid #e5e5e5;
+    width: 100%;
+}
+.number {
+    display: flex;
+    text-align: center;
+    background-color: white;!important;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button {
+    display: flex;
+    height:100%;
+    width: 100%;
+    min-height: 3.5rem;
+    justify-content: center;
+    align-items: center;
+
+}
+#percentage {
+    border-right: 1px solid #e5e5e5;
+}
+div.button.number{
+    border-right: 1px solid #e5e5e5;
+}
+div.button.image {
+    border-right: 1px solid #e5e5e5;
+}
+div.button.sign {
+    border-right: 1px solid #e5e5e5;
+}
+
+
+
+
