@@ -14,8 +14,9 @@ body {
 
 }
 #calculartor {
-    padding: 15% 40% 20% 40%;
     border: 1px black solid;
+    max-width: 400px;
+    min-width: 200px;
 
 }
 header.top-part {
