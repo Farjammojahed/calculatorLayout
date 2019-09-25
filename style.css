@@ -14,13 +14,12 @@ body {
 
 }
 #calculartor {
-    border: 1px black solid;
-    max-width: 400px;
-    min-width: 200px;
+    border: 1px #e5e5e5 solid;
 
 }
 header.top-part {
     background-color: #e5e5e5;
+
 }
 .top-menu {
     display: flex;
@@ -33,13 +32,13 @@ header.top-part {
 }
 .option-top-menu-button{
     display: flex;
-    flex-basis: 10%;
     justify-items: center;
     align-items: center;
 }
 .calculator-choosen {
     display: flex;
-    flex-basis: 80%;
+    font-weight: 500;
+
 }
 label.calculator-choosen{
     align-items: center;
@@ -47,10 +46,9 @@ label.calculator-choosen{
 }
 .history-button {
     display: flex;
-    justify-content: flex-end;
+    justify-content: right;
     justify-items: center;
     align-items: center;
-    flex-basis: 10%;
 }
 .screen {
     display: flex;
@@ -69,13 +67,14 @@ label.calculator-choosen{
     direction: rtl;
     unicode-bidi: bidi-override;
     background-color: transparent;
-    padding:0 10px 0 10px
+    padding:0 10px 0 10px;
 }
 .main-screen {
     display: flex;
 }
 #main {
     font-size: 3rem;
+    color: black;
     font-weight: 600;
     width: 100%;
     height: 100%;
@@ -91,7 +90,10 @@ label.calculator-choosen{
     flex-flow: row nowrap;
     justify-content: space-around;
     font-size: 0.75rem;
-    color: #757575
+    color: #757575;
+    max-width: 100%;
+    line-height: 2rem;
+    width: 60%;
 }
 section.bottom-part {
     background-color: #f2f2f2;
@@ -143,7 +145,73 @@ div.button.image {
 div.button.sign {
     border-right: 1px solid #e5e5e5;
 }
+.right-part {
+    display: none;
+}
+#sqr3 {
+    display: none;
+}
+.left-part {
+    width: 100%;
+}
+@media screen and (min-width: 500px) {
+    .history-button {
+        display: none;
+    }
+    .memory-save {
+        display: none;
+    }
+    .part {
+        display: flex;
+        flex-flow: row;
+    }
+    .right-part {
+        display: flex;
+        flex-flow: column;
+        background-color: #e5e5e5;
+        min-width: 30%;
+    }
+    .right-tabs {
+        display: flex;
 
+    }
+    .tab {
+        display: flex;
+        justify-content: space-around;
+        background-color: #e5e5e5;
+        padding: 5px 15px 15px 20px;
+    }
+    #history-tab-button {
+        background-color: inherit;
+        display: flex;
+        cursor: pointer;
+        border: none;
+        border-bottom: cadetblue solid 5px;!important;
+        padding-bottom: 5px;
+        color: black;
+        font-weight: 500;
+    }
+    #memory-tab-button {
+        color: black;
+        background-color: inherit;
+        display: flex;
+        cursor: pointer;
+        border: none;
+        padding-bottom: 5px;
+        font-weight: 500;
+        /*border-bottom: cadetblue solid 5px;!important;*/
+    }
+    #history-tab{
+        font-size: .90rem;
+        font-weight: 500;
+    }
+    #memory-tab {
+        display: none;
+    }
+    .tab-content {
+        padding: 10px 0 0 20px;
+    }
+}
 
 
 
