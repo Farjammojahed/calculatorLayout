@@ -19,6 +19,8 @@ body {
 }
 header.top-part {
     background-color: #e5e5e5;
+    display: flex;
+    flex-flow: column;
 
 }
 .top-menu {
@@ -28,7 +30,6 @@ header.top-part {
 .top-menu-label {
     display: flex;
     flex-flow: row nowrap;
-    flex-basis: 100%;
 }
 .option-top-menu-button{
     display: flex;
