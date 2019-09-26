@@ -54,7 +54,7 @@ label.calculator-choosen{
 .screen {
     display: flex;
     flex-flow: column nowrap;
-    height: 100px;
+    /*height: 100px;*/
 }
 .history-screen {
     display: flex;
@@ -220,6 +220,19 @@ div.button.sign {
     #row-column {
         display: none;
     }
+    #main {
+        font-size: 5rem;
+    }
+    #history {
+        font-size: 1.1rem;
+    }
+    .memory {
+        line-height: 3rem;
+        font-size: 1.1rem;
+    }
+    .row {
+        line-height: 7rem;
+     }
 }
 
 
