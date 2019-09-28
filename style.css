@@ -100,7 +100,7 @@ label.calculator-choosen{
     font-size: 0.75rem;
     color: #757575;
     max-width: 100%;
-    line-height: 2rem;
+    /*line-height: 2rem;*/
     width: 60%;
 }
 section.bottom-part {
@@ -141,7 +141,7 @@ section.bottom-part {
     display: flex;
     height:100%;
     width: 100%;
-    min-height: 3.5rem;
+    /*min-height: 3.5rem;*/
     justify-content: center;
     align-items: center;
 
@@ -244,11 +244,11 @@ div.button.sign {
         font-size: 1.1rem;
     }
     .memory {
-        line-height: 3rem;
+        /*line-height: 3rem;*/
         font-size: 1.1rem;
     }
     .row {
-        line-height: 7rem;
+        /*line-height: 7rem;*/
      }
 }
 
