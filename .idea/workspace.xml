@@ -67,7 +67,7 @@
       <workItem from="1569388816325" duration="279000" />
       <workItem from="1569389923934" duration="33949000" />
       <workItem from="1569612933918" duration="1895000" />
-      <workItem from="1569650627889" duration="287000" />
+      <workItem from="1569650627889" duration="1165000" />
     </task>
     <task id="LOCAL-00001" summary="added min-width and max-width">
       <created>1569358297570</created>
@@ -111,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569614687864</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="responsive height">
+      <created>1569651042072</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1569651042072</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

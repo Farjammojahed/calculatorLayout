@@ -61,7 +61,6 @@ label.calculator-choosen{
 .screen {
     display: flex;
     flex-flow: column nowrap;
-    /*height: 100px;*/
 }
 .history-screen {
     display: flex;
@@ -100,7 +99,6 @@ label.calculator-choosen{
     font-size: 0.75rem;
     color: #757575;
     max-width: 100%;
-    /*line-height: 2rem;*/
     width: 60%;
 }
 section.bottom-part {
@@ -141,7 +139,6 @@ section.bottom-part {
     display: flex;
     height:100%;
     width: 100%;
-    /*min-height: 3.5rem;*/
     justify-content: center;
     align-items: center;
 
@@ -170,6 +167,11 @@ div.button.sign {
 }
 .max-width {
     display: none;
+}
+.part {
+    display: flex;
+    flex-flow: row;
+    height: 100%;
 }
 @media screen and (min-width: 500px) {
     .history-button {
@@ -217,7 +219,6 @@ div.button.sign {
         border: none;
         padding-bottom: 5px;
         font-weight: 500;
-        /*border-bottom: cadetblue solid 5px;!important;*/
     }
     #history-tab{
         font-size: .90rem;
@@ -244,12 +245,9 @@ div.button.sign {
         font-size: 1.1rem;
     }
     .memory {
-        /*line-height: 3rem;*/
         font-size: 1.1rem;
     }
-    .row {
-        /*line-height: 7rem;*/
-     }
+
 }
 
 
