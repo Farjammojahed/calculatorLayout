@@ -4,7 +4,7 @@ html {
     height: 100%;
     display: flex;
     flex-flow: column;
-    min-height: 500px;
+    min-height: 400px;
 }
 *{
     box-sizing: border-box;
@@ -191,17 +191,18 @@ div.button.sign {
     display: flex;
     flex-flow: row;
     justify-content: space-between;
-    /*line-height: 1rem;*/
-    padding: 5px 0px 0px 10px;
+    line-height: 1rem;
+    /*padding: 5px 0px 0px 10px;*/
     background-color: #e5e5e5;
     font-size: 1rem;
 }
 .title-bar {
     display: flex;
     flex-flow: column;
-    padding-bottom: 5px;
+    /*padding-bottom: 5px;*/
     background-color: #e5e5e5;
     height: 5%;
+    justify-content: center;
 }
 .window {
     display: flex;
@@ -219,7 +220,10 @@ image {
     width: 15px;
     height: 15px;
 }
-@media screen and (min-width: 500px) {
+.memory-button {
+    font-size: 1.1rem;
+}
+@media screen and (min-width: 500px) and (height: 700px){
     img {
         width: 20px;
         height: 20px;
@@ -284,8 +288,20 @@ image {
     .memory {
         font-size: 0.90rem;
     }
+    .title-bar {
+        height: 10%;
+    }
+    .branding-top {
+        height: 10%;
+    }
+    .memory-button {
+        font-size: 3rem;
+    }
+    .memory {
+        font-size: 5rem;
+    }
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 700px) and (height: 800px) {
     img {
         width: 20px;
         height: 20px;
@@ -303,7 +319,10 @@ image {
         font-size: 1.1rem;
     }
     .memory {
-        font-size: 1.1rem;
+        font-size: 5rem;
+    }
+    .memory-button {
+        font-size: 5rem;
     }
 
 }
