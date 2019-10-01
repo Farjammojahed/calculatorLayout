@@ -35,6 +35,9 @@ header.top-part {
     width: 100%;
     justify-content: space-between;
 }
+.icon {
+    padding: 2px 2px 2px 2px;
+}
 .top-menu-label {
     display: flex;
     flex-flow: row nowrap;
