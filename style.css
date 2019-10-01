@@ -182,7 +182,42 @@ div.button.sign {
     height: 100%;
     min-height: 500px;
 }
+.branding-top {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    line-height: 1rem;
+    padding: 5px 0px 0px 10px;
+    background-color: #e5e5e5;
+    font-size: 1rem;
+}
+.title-bar {
+    display: flex;
+    flex-flow: column;
+    padding-bottom: 5px;
+    background-color: #e5e5e5;
+}
+.window {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    width: 7%;
+}
+.branding {
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 500;
+    font-size: 1rem;
+}
+image {
+    width: 15px;
+    height: 15px;
+}
 @media screen and (min-width: 500px) {
+    img {
+        width: 20px;
+        height: 20px;
+    }
     .history-button {
         display: none;
     }
@@ -240,8 +275,15 @@ div.button.sign {
         padding: 10px 0 0 20px;
         display: flex;
     }
+    .memory {
+        font-size: 0.90rem;
+    }
 }
 @media screen and (min-width: 700px) {
+    img {
+        width: 20px;
+        height: 20px;
+    }
     .max-width {
         display: flex;
     }
