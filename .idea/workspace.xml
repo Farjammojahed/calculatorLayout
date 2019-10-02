@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26c53fa2-389e-4bb4-ba38-e75de60a009e" name="Default Changelist" comment="">
+    <list default="true" id="26c53fa2-389e-4bb4-ba38-e75de60a009e" name="Default Changelist" comment="title-bar">
+      <change afterPath="$PROJECT_DIR$/calculator/src/components/WindowBar.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +32,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/calculator" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RunDashboard">
@@ -70,7 +71,8 @@
       <workItem from="1569650627889" duration="6963000" />
       <workItem from="1569919925704" duration="2754000" />
       <workItem from="1569927052644" duration="9383000" />
-      <workItem from="1570009745545" duration="1678000" />
+      <workItem from="1570009745545" duration="2844000" />
+      <workItem from="1570012718222" duration="1251000" />
     </task>
     <task id="LOCAL-00001" summary="added min-width and max-width">
       <created>1569358297570</created>
@@ -163,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569938713555</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="title-bar">
+      <created>1570011461893</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1570011461893</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
