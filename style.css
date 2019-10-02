@@ -156,7 +156,7 @@ section.bottom-part {
     align-items: center;
 
 }
-#percentage {
+.percentage {
     border-right: 1px solid #e5e5e5;
 }
 div.button.number{

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26c53fa2-389e-4bb4-ba38-e75de60a009e" name="Default Changelist" comment="title-bar">
-      <change afterPath="$PROJECT_DIR$/calculator/src/components/WindowBar.vue" afterDir="false" />
+    <list default="true" id="26c53fa2-389e-4bb4-ba38-e75de60a009e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +32,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/calculator" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../calculator" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RunDashboard">
@@ -72,7 +72,8 @@
       <workItem from="1569919925704" duration="2754000" />
       <workItem from="1569927052644" duration="9383000" />
       <workItem from="1570009745545" duration="2844000" />
-      <workItem from="1570012718222" duration="1251000" />
+      <workItem from="1570012718222" duration="1496000" />
+      <workItem from="1570049644316" duration="713000" />
     </task>
     <task id="LOCAL-00001" summary="added min-width and max-width">
       <created>1569358297570</created>
@@ -172,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570011461893</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="fixed missing closed doublequote's">
+      <created>1570014134040</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1570014134040</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +206,7 @@
     <MESSAGE value="added @media 700px" />
     <MESSAGE value="responsive height" />
     <MESSAGE value="title-bar" />
-    <option name="LAST_COMMIT_MESSAGE" value="title-bar" />
+    <MESSAGE value="fixed missing closed doublequote's" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed missing closed doublequote's" />
   </component>
 </project>
