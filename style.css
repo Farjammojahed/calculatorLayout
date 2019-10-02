@@ -106,7 +106,7 @@ label.calculator-choosen{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
-    font-size: 0.75rem;
+    /*font-size: 0.75rem;*/
     color: #757575;
     max-width: 100%;
     width: 70%;
@@ -195,6 +195,8 @@ div.button.sign {
     /*padding: 5px 0px 0px 10px;*/
     background-color: #e5e5e5;
     font-size: 1rem;
+    align-items: center;
+    height: 10%;
 }
 .title-bar {
     display: flex;
@@ -221,9 +223,9 @@ image {
     height: 15px;
 }
 .memory-button {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
 }
-@media screen and (min-width: 500px) and (height: 700px){
+@media screen and (min-width: 500px) and (min-height: 600px){
     img {
         width: 20px;
         height: 20px;
@@ -286,22 +288,25 @@ image {
         display: flex;
     }
     .memory {
-        font-size: 0.90rem;
+        font-size: 1.1rem;
     }
-    .title-bar {
-        height: 10%;
-    }
-    .branding-top {
-        height: 10%;
-    }
+    /*.title-bar {*/
+    /*    height: 10%;*/
+    /*}*/
+    /*.branding-top {*/
+    /*    height: 10%;*/
+    /*}*/
     .memory-button {
-        font-size: 3rem;
+        font-size: 1rem;
     }
     .memory {
         font-size: 5rem;
     }
+    #main {
+        font-size: 4rem;
+    }
 }
-@media screen and (min-width: 700px) and (height: 800px) {
+@media screen and (min-width: 700px) and (min-height: 800px) {
     img {
         width: 20px;
         height: 20px;
@@ -318,11 +323,8 @@ image {
     #history {
         font-size: 1.1rem;
     }
-    .memory {
-        font-size: 5rem;
-    }
     .memory-button {
-        font-size: 5rem;
+        font-size: 1.2rem;
     }
 
 }
