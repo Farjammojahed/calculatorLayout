@@ -4,7 +4,7 @@ html {
     height: 100%;
     display: flex;
     flex-flow: column;
-    min-height: 400px;
+
 }
 *{
     box-sizing: border-box;
@@ -25,6 +25,9 @@ body {
     display: flex;
     flex-flow: column;
     height: 100%;
+    width: 100%;
+    min-height: 400px;
+    min-width: 200px;
 }
 header.top-part {
     background-color: #e5e5e5;
@@ -219,7 +222,7 @@ image {
 .memory-button {
     font-size: 0.9rem;
 }
-@media screen and (min-width: 500px) and (min-height: 600px){
+@media screen and (min-width: 500px) {
     img {
         width: 20px;
         height: 20px;
