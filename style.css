@@ -103,7 +103,6 @@ label.calculator-choosen{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
-    /*font-size: 0.75rem;*/
     color: #757575;
     max-width: 100%;
     width: 70%;
@@ -189,7 +188,6 @@ div.button.sign {
     flex-flow: row;
     justify-content: space-between;
     line-height: 1rem;
-    /*padding: 5px 0px 0px 10px;*/
     background-color: #e5e5e5;
     font-size: 1rem;
     align-items: center;
@@ -198,7 +196,6 @@ div.button.sign {
 .title-bar {
     display: flex;
     flex-flow: column;
-    /*padding-bottom: 5px;*/
     background-color: #e5e5e5;
     height: 5%;
     justify-content: center;
@@ -287,12 +284,6 @@ image {
     .memory {
         font-size: 1.1rem;
     }
-    /*.title-bar {*/
-    /*    height: 10%;*/
-    /*}*/
-    /*.branding-top {*/
-    /*    height: 10%;*/
-    /*}*/
     .memory-button {
         font-size: 1rem;
     }

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26c53fa2-389e-4bb4-ba38-e75de60a009e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,7 +73,7 @@
       <workItem from="1570012718222" duration="1496000" />
       <workItem from="1570049644316" duration="713000" />
       <workItem from="1570091645183" duration="73000" />
-      <workItem from="1570091733655" duration="134000" />
+      <workItem from="1570091733655" duration="343000" />
     </task>
     <task id="LOCAL-00001" summary="added min-width and max-width">
       <created>1569358297570</created>
@@ -181,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570014134040</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="remove some unused code">
+      <created>1570091887042</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1570091887042</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +214,7 @@
     <MESSAGE value="responsive height" />
     <MESSAGE value="title-bar" />
     <MESSAGE value="fixed missing closed doublequote's" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed missing closed doublequote's" />
+    <MESSAGE value="remove some unused code" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove some unused code" />
   </component>
 </project>
