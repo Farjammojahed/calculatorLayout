@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="26c53fa2-389e-4bb4-ba38-e75de60a009e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,7 +76,7 @@
       <workItem from="1570049644316" duration="713000" />
       <workItem from="1570091645183" duration="73000" />
       <workItem from="1570091733655" duration="2053000" />
-      <workItem from="1570180245651" duration="6673000" />
+      <workItem from="1570180245651" duration="7560000" />
     </task>
     <task id="LOCAL-00001" summary="added min-width and max-width">
       <created>1569358297570</created>
@@ -210,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570186893969</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="changed some div's into button&#10;with size change the icons and numbers change size now">
+      <created>1570187316192</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1570187316192</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

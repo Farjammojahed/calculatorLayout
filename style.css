@@ -211,6 +211,13 @@ section.bottom-part {
     justify-content: flex-end;
     width: 7%;
 }
+.window-icons {
+    width: 22px;
+    height: 22px;
+    display: flex;
+    padding: 3px 3px 3px 3px;
+    justify-content: space-around;
+}
 .branding {
     display: flex;
     justify-content: flex-start;
