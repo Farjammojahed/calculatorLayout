@@ -76,7 +76,7 @@
       <workItem from="1570091645183" duration="73000" />
       <workItem from="1570091733655" duration="2053000" />
       <workItem from="1570180245651" duration="7560000" />
-      <workItem from="1570263077250" duration="5114000" />
+      <workItem from="1570263077250" duration="5354000" />
     </task>
     <task id="LOCAL-00001" summary="added min-width and max-width">
       <created>1569358297570</created>
@@ -225,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570269252217</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="added :hover to buttons">
+      <created>1570273376866</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1570273376866</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,6 +263,7 @@
     <MESSAGE value="made some changes in body" />
     <MESSAGE value="changed some div's into button&#10;with size change the icons and numbers change size now" />
     <MESSAGE value="alt+ctrl+l" />
-    <option name="LAST_COMMIT_MESSAGE" value="alt+ctrl+l" />
+    <MESSAGE value="added :hover to buttons" />
+    <option name="LAST_COMMIT_MESSAGE" value="added :hover to buttons" />
   </component>
 </project>
