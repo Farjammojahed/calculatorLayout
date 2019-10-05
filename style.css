@@ -39,8 +39,14 @@ body {
     align-items: center;
     border: 1px solid #e5e5e5;
 }
+.button:hover {
+    background-color: #ececec;
+}
+.button::-moz-focus-inner {
+    border: 0;
+}
 .button:active {
-    border: none;
+
 }
 .sign {
     font-size: 1.2rem;
@@ -79,13 +85,20 @@ label.calculator-choosen{
 }
 .history-button {
     display: flex;
-    justify-content: right;
+    justify-content: center;
     justify-items: center;
     align-items: center;
     background-color: #e5e5e5;
+    width: 7%;
+}
+.history-button:hover {
+    background-color: #ececec;
 }
 .memory-button {
     background-color: #e5e5e5;
+}
+.memory-button:hover {
+    background-color: #9c9c9c;
 }
 .screen {
     display: flex;
@@ -260,7 +273,7 @@ section.bottom-part {
         display: flex;
         justify-content: space-around;
         background-color: #e5e5e5;
-        padding: 5px 15px 15px 20px;
+        padding: 5px 0px 15px 20px;
     }
     #history-tab-button {
         background-color: inherit;
@@ -294,6 +307,7 @@ section.bottom-part {
     }
     .memory {
         width: 65%;
+        height: 40%;
     }
     #main {
         font-size: 4rem;
