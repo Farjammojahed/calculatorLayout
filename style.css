@@ -51,12 +51,11 @@ body {
 .button:focus {
     outline: none;
 }
-button.sign {
-    font-size: 1.2rem;
-    opacity: 0.85;
+.letter {
+    opacity: 0.6;
 }
-button.letter {
-    opacity: 0.85;
+.icon {
+    opacity: 0.6;
 }
 header.top-part {
     background-color: #e5e5e5;
@@ -193,7 +192,7 @@ section.bottom-part {
 .icon {
     width: 20px;
     height: 20px;
-    opacity: 0.8;
+    /*opacity: 0.7;*/
 }
 .right-part {
     display: none;
