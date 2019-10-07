@@ -178,6 +178,7 @@ section.bottom-part {
     text-align: center;
     background-color: white;!important;
     font-size: 1.2rem;
+    font-weight: bold;
 }
 .icon {
     width: 20px;
@@ -231,6 +232,9 @@ section.bottom-part {
     display: flex;
     padding: 3px 3px 3px 3px;
     justify-content: space-around;
+}
+.window-icons:hover {
+    background-color: #ececec;
 }
 .branding {
     display: flex;
@@ -308,7 +312,7 @@ section.bottom-part {
     }
     .memory {
         width: 65%;
-        height: 40%;
+        height: 15%;
     }
     #main {
         font-size: 4rem;
