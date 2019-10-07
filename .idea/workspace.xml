@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26c53fa2-389e-4bb4-ba38-e75de60a009e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,7 +77,7 @@
       <workItem from="1570180245651" duration="7560000" />
       <workItem from="1570263077250" duration="5616000" />
       <workItem from="1570401063310" duration="75000" />
-      <workItem from="1570470936818" duration="5437000" />
+      <workItem from="1570470936818" duration="5590000" />
     </task>
     <task id="LOCAL-00001" summary="added min-width and max-width">
       <created>1569358297570</created>
@@ -249,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570472025182</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="compatible with chrome">
+      <created>1570476506741</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1570476506741</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,6 +288,7 @@
     <MESSAGE value="added :hover to buttons" />
     <MESSAGE value="added border to memory.button:hover" />
     <MESSAGE value="adde hover to title bar icons&#10;number are now bold" />
-    <option name="LAST_COMMIT_MESSAGE" value="adde hover to title bar icons&#10;number are now bold" />
+    <MESSAGE value="compatible with chrome" />
+    <option name="LAST_COMMIT_MESSAGE" value="compatible with chrome" />
   </component>
 </project>
