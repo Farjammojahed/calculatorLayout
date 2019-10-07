@@ -40,16 +40,20 @@ body {
     border: 1px solid #e5e5e5;
 }
 .button:hover {
-    background-color: #ececec;
+    background-color: #A9A9A9;
 }
 .button::-moz-focus-inner {
     border: 0;
 }
 .button:active {
-
+    outline: none;
+}
+.button:focus {
+    outline: none;
 }
 .sign {
     font-size: 1.2rem;
+    opacity: 0.9;
 }
 header.top-part {
     background-color: #e5e5e5;
@@ -72,6 +76,7 @@ header.top-part {
     justify-items: center;
     align-items: center;
     background-color: #e5e5e5;
+    opacity: 0.8;
 }
 .calculator-choosen {
     display: flex;
@@ -90,16 +95,18 @@ label.calculator-choosen{
     align-items: center;
     background-color: #e5e5e5;
     width: 7%;
+    opacity: 0.9;
 }
 .history-button:hover {
-    background-color: #ececec;
+    background-color: #A9A9A9;
 }
 .memory-button {
     background-color: #e5e5e5;
 }
 .memory-button:hover {
-    background-color: #9c9c9c;
-    border: 1px solid #949494;
+    background-color: #ececec;
+    /*border: 1px solid #949494;*/
+    outline: none;
 }
 .screen {
     display: flex;
@@ -183,6 +190,7 @@ section.bottom-part {
 .icon {
     width: 20px;
     height: 20px;
+    opacity: 0.8;
 }
 .right-part {
     display: none;
@@ -201,7 +209,7 @@ section.bottom-part {
 .part {
     display: flex;
     flex-flow: row;
-    height: 95%;
+    height: 100%;
 }
 .branding-top {
     display: flex;
@@ -217,7 +225,6 @@ section.bottom-part {
     display: flex;
     flex-flow: column;
     background-color: #e5e5e5;
-    height: 5%;
     justify-content: center;
 }
 .window {
@@ -227,14 +234,21 @@ section.bottom-part {
     width: 7%;
 }
 .window-icons {
-    width: 22px;
-    height: 22px;
     display: flex;
-    padding: 3px 3px 3px 3px;
+
     justify-content: space-around;
 }
+.window-icons-img {
+    width: 22px;
+    height: 22px;
+    padding: 3px 3px 3px 3px;
+}
 .window-icons:hover {
-    background-color: #ececec;
+    background-color: #A9A9A9;
+}
+.dot {
+    font-weight: bold;
+    opacity: 1;!important;
 }
 .branding {
     display: flex;
@@ -242,7 +256,7 @@ section.bottom-part {
     font-weight: 500;
     font-size: 1rem;
 }
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 600px) {
     .icon {
         width: 25px;
         height: 25px;
@@ -262,7 +276,7 @@ section.bottom-part {
     .part {
         display: flex;
         flex-flow: row;
-        height: 95%;
+        height: 100%;
     }
     .right-part {
         display: flex;
@@ -318,7 +332,7 @@ section.bottom-part {
         font-size: 4rem;
     }
 }
-@media screen and (min-width: 700px) and (min-height: 800px) {
+@media screen and (min-width: 900px) and (min-height: 800px) {
     .icon {
         width: 30px;
         height: 30px;
@@ -340,6 +354,9 @@ section.bottom-part {
     }
     #history {
         font-size: 1.1rem;
+    }
+    .memory {
+        width: 30%;
     }
 
 }

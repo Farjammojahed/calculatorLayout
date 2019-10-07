@@ -13,13 +13,13 @@
             <h5 class="branding">Calculator</h5>
             <div class="window">
                 <div class="window-icons" role="button">
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAARElEQVRYR+3V0Q0AMAQFQPYfuh1A+ql8nAF4LhIZw5XD80MAAgQIECCwVuA0fcmy8EtgPEATQG279gYIECBAgACBbwIXi38CITaYSB4AAAAASUVORK5CYII=">
+                    <img class="window-icons-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAARElEQVRYR+3V0Q0AMAQFQPYfuh1A+ql8nAF4LhIZw5XD80MAAgQIECCwVuA0fcmy8EtgPEATQG279gYIECBAgACBbwIXi38CITaYSB4AAAAASUVORK5CYII=">
                 </div>
                 <div class="window-icons" role="button">
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAU0lEQVRYR+3WIQIAIAhDUbj/oTVpkIBlzvA9gJtPAhnmk+b8oAACp8B4NJQ799sCqtlYwq0ABRBAAAEEEEDALqBejNp9wFZAHVzuV/319UMogMAEOqwkIXyG1okAAAAASUVORK5CYII=">
+                    <img class="window-icons-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAU0lEQVRYR+3WIQIAIAhDUbj/oTVpkIBlzvA9gJtPAhnmk+b8oAACp8B4NJQ799sCqtlYwq0ABRBAAAEEEEDALqBejNp9wFZAHVzuV/319UMogMAEOqwkIXyG1okAAAAASUVORK5CYII=">
                 </div>
                 <div class="window-icons" role="button">
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABBUlEQVRYR+2W6w3CMAyErxuwCYwAG7AJjAATMQKMUDZhBHQSQaFqYp8DqpDSn2nj+3J+NAMWfoaF9dEBugN/4cAewA3AQ+yYFYADgHNtn+UAxS8ARgA7AYLiVwCbF8CpBGEBMBBPvxYgcvE7gG0N3AIguAIhiTO4B8ALIYsrABZESFwFKEFwPRWcmfNpMXpTkO+b1gTfsdpl8YgDCSSH4FpIvBUg2c446px4OxpNQZ5zBlPmxEcZqABz1c6A6rAKOVBrNWVYhRzw9HkIwpMCj/hcd7gK0wJQxEMQFkD6Hat9nqeD94Hw75inarmQHGviLYNIvByVP7dS8DWh6I2oA3QHfu7AEzfHWCF+OOmJAAAAAElFTkSuQmCC">
+                    <img class="window-icons-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABBUlEQVRYR+2W6w3CMAyErxuwCYwAG7AJjAATMQKMUDZhBHQSQaFqYp8DqpDSn2nj+3J+NAMWfoaF9dEBugN/4cAewA3AQ+yYFYADgHNtn+UAxS8ARgA7AYLiVwCbF8CpBGEBMBBPvxYgcvE7gG0N3AIguAIhiTO4B8ALIYsrABZESFwFKEFwPRWcmfNpMXpTkO+b1gTfsdpl8YgDCSSH4FpIvBUg2c446px4OxpNQZ5zBlPmxEcZqABz1c6A6rAKOVBrNWVYhRzw9HkIwpMCj/hcd7gK0wJQxEMQFkD6Hat9nqeD94Hw75inarmQHGviLYNIvByVP7dS8DWh6I2oA3QHfu7AEzfHWCF+OOmJAAAAAElFTkSuQmCC">
                 </div>
             </div>
         </div>
@@ -51,12 +51,12 @@
                     </div>
                 </div>
                 <div class="memory">
-                    <button class="memory-button button" role="button">MC</button>
-                    <button class="memory-button button" role="button">MR</button>
+                    <button class="memory-button button" role="button" disabled>MC</button>
+                    <button class="memory-button button" role="button" disabled>MR</button>
                     <button class="memory-button button" role="button">M+</button>
                     <button class="memory-button button" role="button">M-</button>
                     <button class="memory-button button" role="button">MS</button>
-                    <button class="memory-save memory-button button" role="button">M&darr;</button>
+                    <button class="memory-save memory-button button" role="button" disabled>M&darr;</button>
                 </div>
             </header>
             <section class="bottom-part">
@@ -167,7 +167,7 @@
                                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAYUlEQVRYR+2VMQ4AIAgD4f+P1gUdCakx1VB3pL0UcCM/J/c3CfiewIgMwUbgwmgsASLQg8ByiW7tdNIqY0gXkDnvkQEREIGnCaDLaddVFtFxk+wDCagQoN8CugCFUASuEpjXIBIhP3OSdgAAAABJRU5ErkJggg==">
                             </button>
                             <button class="button number" data-value="0" role="button">0</button>
-                            <button id="dot" class="button sign dot" role="button" data-value=".">.</button>
+                            <button id="dot" class="button sign dot" role="button" data-value=".">/</button>
                             <button id="equal" class="button image sign" role="button">
                                 <img class="icon"
                                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAQ0lEQVRYR+3U0Q0AMAQFQPYfuh1A+ikkPQMgF0/GcOXw/LAAAQIECLwETtOLLvPWLtAEUNs6wrUCUiAFBAgQIPCPwAX8vwQhcNJI5wAAAABJRU5ErkJggg==">
