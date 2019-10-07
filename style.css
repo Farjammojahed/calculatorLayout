@@ -51,11 +51,12 @@ body {
 .button:focus {
     outline: none;
 }
-.sign {
+button.sign {
     font-size: 1.2rem;
+    opacity: 0.85;
 }
-.letter {
-    opacity: 0.8;
+button.letter {
+    opacity: 0.85;
 }
 header.top-part {
     background-color: #e5e5e5;
