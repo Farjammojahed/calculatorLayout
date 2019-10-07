@@ -53,7 +53,9 @@ body {
 }
 .sign {
     font-size: 1.2rem;
-    opacity: 0.9;
+}
+.letter {
+    opacity: 0.8;
 }
 header.top-part {
     background-color: #e5e5e5;
@@ -95,7 +97,7 @@ label.calculator-choosen{
     align-items: center;
     background-color: #e5e5e5;
     width: 7%;
-    opacity: 0.9;
+    /*opacity: 0.9;*/
 }
 .history-button:hover {
     background-color: #A9A9A9;
