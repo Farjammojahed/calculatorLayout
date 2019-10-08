@@ -257,7 +257,7 @@ section.bottom-part {
     font-weight: 500;
     font-size: 1rem;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 550px) {
     .icon {
         width: 25px;
         height: 25px;
@@ -333,7 +333,7 @@ section.bottom-part {
         font-size: 4rem;
     }
 }
-@media screen and (min-width: 900px) and (min-height: 800px) {
+@media screen and (min-width: 800px) {
     .icon {
         width: 30px;
         height: 30px;
@@ -357,9 +357,36 @@ section.bottom-part {
         font-size: 1.1rem;
     }
     .memory {
-        width: 30%;
+        width: 40%;
     }
 
+}
+@media screen and (min-height: 750px){
+    .icon {
+        width: 30px;
+        height: 30px;
+    }
+    .number {
+        font-size: 1.6rem;
+    }
+    .sign {
+        font-size: 1.6rem;
+    }
+    .max-width {
+        display: flex;
+    }
+    #row-column {
+        display: none;
+    }
+    #main {
+        font-size: 5rem;
+    }
+    #history {
+        font-size: 1.1rem;
+    }
+    .memory {
+        width: 50%;
+    }
 }
 
 
