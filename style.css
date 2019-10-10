@@ -247,6 +247,7 @@ section.bottom-part {
     display: flex;
     flex-flow: row;
     justify-content: flex-end;
+    align-items: center;
     height: 100%;
     width: 100%;
 }
