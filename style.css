@@ -4,7 +4,9 @@ html {
     height: 100%;
     display: flex;
     flex-flow: column;
-
+    width: 100%;
+    min-height: 450px;
+    min-width: 300px;!important;
 }
 *{
     box-sizing: border-box;
@@ -18,29 +20,27 @@ html {
 body {
     font-family: 'Open Sans', sans-serif;
     height: 100%;
-
+    width: 100%;
 }
 #calculartor {
-    border: 1px #e5e5e5 solid;
+    /*border: 1px #e5e5e5 solid;*/
     display: flex;
     flex-flow: column;
     height: 100%;
     width: 100%;
-    min-height: 400px;
-    min-width: 200px;
 }
 .button {
     display: flex;
     text-decoration: none;
-    cursor: pointer;
     height:100%;
     width: 100%;
     justify-content: center;
     align-items: center;
-    border: 1px solid #e5e5e5;
+    border: 1px solid #E8E8E8;
+    background-color: #f0f0f0;
 }
 .button:hover {
-    background-color: #A9A9A9;
+    background-color: #DCDCDC;
 }
 .button::-moz-focus-inner {
     border: 0;
@@ -51,76 +51,99 @@ body {
 .button:focus {
     outline: none;
 }
-.letter {
-    opacity: 1;
-}
-.icon {
-    opacity: 0.85;
-}
 header.top-part {
-    background-color: #e5e5e5;
+    background-color: #E8E8E8;
     display: flex;
     flex-flow: column;
     height: 35%;
 }
 .top-menu {
     display: flex;
-    height: 15%;
-    width: 100%;
-    justify-content: space-between;
+    justify-content: flex-start;
+    align-items: center;
+    height: 20%;
 }
 .top-menu-label {
     display: flex;
     flex-flow: row nowrap;
+    height: 98%;
+    width: 8%;
 }
 .option-top-menu-button{
     display: flex;
-    justify-items: center;
-    align-items: center;
-    background-color: #e5e5e5;
-    opacity: 0.8;
+    border: none;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    background-color: #E8E8E8;
+}
+.option-top-menu-button:hover{
+    background-color: #DCDCDC;
+}
+.option-top-menu-icon {
+    width: 16px;
+    height: 13px;
 }
 .calculator-choosen {
     display: flex;
-    font-weight: 500;
-    font-size: 1.2rem;
-
+    height: 100%;
+    width: 100%;
 }
 label.calculator-choosen{
     align-items: center;
-    padding-left: 10px;
+    font-family: Tahoma;
 }
 .history-button {
     display: flex;
     justify-content: center;
     justify-items: center;
     align-items: center;
-    background-color: #e5e5e5;
-    width: 7%;
-    /*opacity: 0.9;*/
+    background-color: #E8E8E8;
+    width: 9%;
 }
 .history-button:hover {
-    background-color: #A9A9A9;
+    background-color: #DCDCDC;
+    border: 0.5px solid #808080;
 }
 .memory-button {
-    background-color: #e5e5e5;
+    background-color: #E8E8E8;
+    font-size: 0.59rem;
+    font-weight: bold;
 }
 .memory-button:hover {
-    background-color: #ececec;
-    /*border: 1px solid #949494;*/
+    background-color: #DCDCDC;
     outline: none;
+}
+.memory-button-style {
+    display: flex;
+}
+.memory-buttons {
+    width: 100%;
+    display: flex;
+}
+.memory-save-style {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 3px solid #808080;
+    margin-top: 2px;
 }
 .screen {
     display: flex;
     flex-flow: column nowrap;
-    height: 70%;
+    height: 55%;
 }
 .history-screen {
-    display: flex;
     height: 20%;
 }
 #history {
-    font-size: 1.1rem;
+    font-size: 0.7rem;
     width: 100%;
     height: 100%;
     border: 0;
@@ -129,36 +152,33 @@ label.calculator-choosen{
     unicode-bidi: bidi-override;
     background-color: transparent;
     padding:0 10px 0 10px;
+    color: #808080;
 }
 .main-screen {
-    display: flex;
     height: 80%;
 }
 #main {
-    font-size: 3rem;
+    font-size: x-large;
+    font-weight: bold;
     color: black;
-    font-weight: 600;
     width: 100%;
-    height: 100%;
     border: 0;
-    text-align: right;
+    text-align: start;
     direction: rtl;
-    unicode-bidi: bidi-override;
     background-color: transparent;
-    padding:0 5px 0 5px
+    padding:0 10px 0 10px;
 }
 .memory {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
     color: #757575;
-    max-width: 100%;
     width: 100%;
-    height: 15%;
-    font-size: 0.7rem;
+    height: 25%;
+    margin-bottom: 1px;
 }
 section.bottom-part {
-    background-color: #f2f2f2;
+    background-color: #f0f0f0;
     display: flex;
     flex-flow: column;
     height: 65%;
@@ -190,8 +210,8 @@ section.bottom-part {
     font-weight: bold;
 }
 .icon {
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
 }
 .right-part {
     display: none;
@@ -202,7 +222,6 @@ section.bottom-part {
     display: flex;
     flex-flow: column;
     height: 100%;
-
 }
 .max-width {
     display: none;
@@ -210,64 +229,66 @@ section.bottom-part {
 .part {
     display: flex;
     flex-flow: row;
-    height: 100%;
+    height: 95.8%;
+    width: 100%;
 }
 .branding-top {
-    display: flex;
-    flex-flow: row;
-    justify-content: space-between;
-    line-height: 1rem;
-    background-color: #e5e5e5;
-    font-size: 1rem;
-    align-items: center;
-    height: 10%;
+    padding-left: 1%;
 }
 .title-bar {
     display: flex;
-    flex-flow: column;
-    background-color: #e5e5e5;
-    justify-content: center;
+    flex-flow: row;
+    background-color: #E8E8E8;
+    justify-content: space-between;
+    align-items: center;
+    height: 4.2%;
 }
 .window {
     display: flex;
     flex-flow: row;
     justify-content: flex-end;
-    width: 7%;
+    height: 100%;
+    width: 100%;
 }
 .window-icons {
     display: flex;
-
     justify-content: space-around;
+    border: none;
+    background-color: inherit;
+    width: 10%;
+    outline: none;
 }
 .window-icons-img {
-    width: 22px;
-    height: 22px;
-    padding: 3px 3px 3px 3px;
+    width: 19px;
+    height: 25px;
+    padding: 6px 4px 6px 4px;
 }
 .window-icons:hover {
-    background-color: #A9A9A9;
+    background-color: #DCDCDC;
 }
-.dot {
+#dot {
     font-weight: bold;
     opacity: 1;!important;
+    font-size: 1.8rem;!important;
 }
 .branding {
+    font-family: Tahoma;
     display: flex;
     justify-content: flex-start;
-    font-weight: 500;
-    font-size: 1rem;
+    font-weight: lighter;
+    font-size: 0.6rem;
+}
+.x-sign {
+    font-family: "Zhi Mang Xin";
+}
+.x-letter {
+    font-size: 16px;
+    font-family: "Zhi Mang Xin";
+}
+.close:hover {
+    background-color: red;!important;
 }
 @media screen and (min-width: 550px) {
-    .icon {
-        width: 25px;
-        height: 25px;
-    }
-    .number {
-        font-size: 1.4rem;
-    }
-    .sign {
-        font-size: 1.4rem;
-    }
     .history-button {
         display: none;
     }
@@ -277,46 +298,47 @@ section.bottom-part {
     .part {
         display: flex;
         flex-flow: row;
-        height: 100%;
+        height: 95.8%;
+        width: 100%;
     }
     .right-part {
         display: flex;
         flex-flow: column;
-        background-color: #e5e5e5;
-        min-width: 30%;
+        background-color: #E8E8E8;
+        width: 46%;
     }
     .right-tabs {
         display: flex;
-
+        height: 7%;
+        width: 60%;
+        justify-content: space-around;
+        align-items: center;
     }
     .tab {
         display: flex;
-        justify-content: space-around;
-        background-color: #e5e5e5;
-        padding: 5px 0 15px 20px;
+        background-color: #E8E8E8;
     }
     #history-tab-button {
         background-color: inherit;
         display: flex;
-        cursor: pointer;
         border: none;
-        border-bottom: cadetblue solid 5px;!important;
-        padding-bottom: 5px;
-        color: black;
-        font-weight: 500;
+        border-bottom: cadetblue solid 2px;!important;
+        font-weight: 600;
+        font-size: 0.7rem;
+        padding-bottom: 1px;
     }
     #memory-tab-button {
-        color: black;
         background-color: inherit;
         display: flex;
-        cursor: pointer;
         border: none;
-        padding-bottom: 5px;
-        font-weight: 500;
+        /*border-bottom: cadetblue solid 2px;!important;*/
+        font-weight: 600;
+        font-size: 0.7rem;
+        padding-bottom: 1px;
     }
     #history-tab{
-        font-size: .90rem;
-        font-weight: 500;
+        font-size: .65rem;
+        font-weight: 600;
     }
     #memory-tab {
         display: none;
@@ -327,22 +349,42 @@ section.bottom-part {
     }
     .memory {
         width: 65%;
-        height: 15%;
     }
     #main {
-        font-size: 4rem;
+        font-size: 2.8rem;
+    }
+    #history {
+        font-size: 0.8rem;
+    }
+    .window-icons {
+        width: 6%;
+    }
+    #divide:hover {
+        background-color: dodgerblue;
+    }
+    #multiply:hover {
+        background-color: dodgerblue;
+    }
+    #minus:hover {
+        background-color: dodgerblue;
+    }
+    #plus:hover {
+        background-color: dodgerblue;
+    }
+    #equal:hover {
+        background-color: dodgerblue;
     }
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 800px) and (min-height: 550px) {
     .icon {
-        width: 30px;
-        height: 30px;
+        width: 18px;
+        height: 18px;
     }
     .number {
-        font-size: 1.6rem;
+        font-size: 1.2rem;
     }
     .sign {
-        font-size: 1.6rem;
+        font-size: 0.95rem;
     }
     .max-width {
         display: flex;
@@ -351,41 +393,37 @@ section.bottom-part {
         display: none;
     }
     #main {
-        font-size: 5rem;
+        font-size: 2.8rem;
     }
     #history {
-        font-size: 1.1rem;
+        font-size: 0.9rem;
     }
     .memory {
         width: 40%;
     }
-
-}
-@media screen and (min-height: 750px){
-    .icon {
-        width: 30px;
-        height: 30px;
+    .right-part {
+        width: 35%;
     }
-    .number {
-        font-size: 1.6rem;
+    .window-icons {
+        width: 5%;
     }
-    .sign {
-        font-size: 1.6rem;
+    .x-letter {
+        font-size: 20px;
     }
-    .max-width {
-        display: flex;
+    #divide:hover {
+        background-color: dodgerblue;
     }
-    #row-column {
-        display: none;
+    #multiply:hover {
+        background-color: dodgerblue;
     }
-    #main {
-        font-size: 5rem;
+    #minus:hover {
+        background-color: dodgerblue;
     }
-    #history {
-        font-size: 1.1rem;
+    #plus:hover {
+        background-color: dodgerblue;
     }
-    .memory {
-        width: 50%;
+    #equal:hover {
+        background-color: dodgerblue;
     }
 }
 
